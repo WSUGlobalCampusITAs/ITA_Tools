@@ -21,7 +21,7 @@ namespace ITATools.ViewModel
         #region Default Constructor
         public MainWindowViewModel()
         {
-            _mainView = new MainViewViewModel();
+            _mainView = new Calendar_Converter.ViewModel.MainWindowViewModel();
             _currentViewModel = new ObservableCollection<ViewModelBase>();
             _currentViewModel.Add(_mainView);
         }
