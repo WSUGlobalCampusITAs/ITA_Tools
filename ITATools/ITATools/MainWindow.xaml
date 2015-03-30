@@ -29,8 +29,8 @@
         <Border BorderBrush="Gray" BorderThickness=".5" Grid.Row="1" Margin="2">
             <UniformGrid Columns="1">
                 <Button Height="20" Content="Calendar Converter" Command="{Binding CalendarConverterCommand}"/>
-                <Button Height="20" Content="Junk Code Removal" Command="{Binding SanitizerCommand}"/>
-                <Button Height="20" Content="Code Creator" Command="{Binding CodeCreatorCommmand}"/>
+                <Button Height="20" Content="Junk Code Removal" Command="{Binding HTMLSanitizeCommand}"/>
+                <Button Height="20" Content="Code Creator" Command="{Binding CodeGeneratorCommand}"/>
             </UniformGrid>
         </Border>
         <Border BorderBrush="Gray" BorderThickness=".5" Margin="2" Grid.Column="1" Grid.Row="1">
