@@ -34,3 +34,9 @@ C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\obj\Debug\ITATool
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\obj\Debug\ITATools.csproj.GenerateResource.Cache
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\obj\Debug\ITATools.exe
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\obj\Debug\ITATools.pdb
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\JunkCodeRemover.dll
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\HtmlSanitizer.dll
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\CsQuery.dll
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\JunkCodeRemover.pdb
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\HtmlSanitizer.xml
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\CsQuery.xml
