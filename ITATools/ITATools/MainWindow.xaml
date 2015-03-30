@@ -4,7 +4,7 @@
         xmlns:local="clr-namespace:ITATools" x:Class="ITATools.MainWindow"
         xmlns:CCvm="clr-namespace:Calendar_Converter.ViewModel;assembly=Calendar_Converter"
         xmlns:CCvw="clr-namespace:Calendar_Converter.View;assembly=Calendar_Converter"
-        Title="MainWindow" Height="350" Width="525">
+        Title="ITA Tools" Height="600" Width="800">
     <Window.Resources>
         <DataTemplate DataType="{x:Type CCvm:MainWindowViewModel}">
             <CCvw:MainWindowView/>
@@ -25,12 +25,12 @@
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="8*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="ITA Tools" HorizontalAlignment="Center" Foreground="White" VerticalAlignment="Center" FontSize="18" FontFamily="Times New Roman" Grid.Column="1" Height="22" Margin="83,4,221,4" Width="72" />
+        <TextBlock Text="ITA Tools" HorizontalAlignment="Center" Foreground="White" VerticalAlignment="Center" FontSize="18" FontFamily="Times New Roman" Grid.Column="1" Margin="83,4,221,4" Padding="3" />
         <Border BorderBrush="Gray" BorderThickness=".5" Grid.Row="1" Margin="2">
             <UniformGrid Columns="1">
-                <Button Height="20" Content="Calendar Converter" Command="{Binding CalendarConverterCommand}"/>
-                <Button Height="20" Content="Junk Code Removal" Command="{Binding HTMLSanitizeCommand}"/>
-                <Button Height="20" Content="Code Creator" Command="{Binding CodeGeneratorCommand}"/>
+                <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Calendar Converter" Command="{Binding CalendarConverterCommand}"/>
+                <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Junk Code Removal" Command="{Binding HTMLSanitizeCommand}"/>
+                <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Code Creator" Command="{Binding CodeGeneratorCommand}"/>
             </UniformGrid>
         </Border>
         <Border BorderBrush="Gray" BorderThickness=".5" Margin="2" Grid.Column="1" Grid.Row="1">
@@ -38,5 +38,6 @@
                 <ItemsControl ItemsSource="{Binding CurrentViewModel}" Margin="2"/>
             </Viewbox>
         </Border>
+        <Button Grid.Column="1" HorizontalAlignment="Right" Width="20" Height="20" VerticalAlignment="Center" Margin="5"/>
     </Grid>
 </Window>
