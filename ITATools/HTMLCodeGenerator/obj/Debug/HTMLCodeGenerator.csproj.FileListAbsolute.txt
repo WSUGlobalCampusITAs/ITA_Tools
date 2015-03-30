@@ -1,0 +1,13 @@
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\bin\Debug\HTMLCodeGenerator.dll
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\bin\Debug\HTMLCodeGenerator.pdb
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\obj\Debug\HTMLCodeGenerator.csprojResolveAssemblyReference.cache
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\obj\Debug\CodeGenerator.baml
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\obj\Debug\CodeGenerator.g.cs
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\obj\Debug\HTMLCodeGenerator_MarkupCompile.cache
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\obj\Debug\HTMLCodeGenerator.g.resources
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\obj\Debug\HTMLCodeGenerator.Properties.Resources.resources
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\obj\Debug\HTMLCodeGenerator.csproj.GenerateResource.Cache
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\obj\Debug\HTMLCodeGenerator.dll
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\obj\Debug\HTMLCodeGenerator.pdb
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\bin\Debug\MVVMObjectLibrary.dll
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\HTMLCodeGenerator\bin\Debug\MVVMObjectLibrary.pdb
