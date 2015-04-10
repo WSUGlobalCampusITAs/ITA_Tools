@@ -14,7 +14,7 @@ namespace ITATools.ViewModel
     {
         #region Member Variables
 
-            private ObservableCollection<ViewModelBase> _currentViewModel;
+            private ViewModelBase _currentViewModel;
             private ViewModelBase _ccView;
             private ViewModelBase _hsView;
             private ViewModelBase _cgView;
@@ -31,8 +31,7 @@ namespace ITATools.ViewModel
             _ccView = new Calendar_Converter.ViewModel.MainWindowViewModel();
             _hsView = new JunkCodeRemover.JunkCodeRemoverViewModel();
             _cgView = new Calendar_Converter.ViewModel.MainWindowViewModel();
-            _currentViewModel = new ObservableCollection<ViewModelBase>();
-            _currentViewModel.Add(_ccView);
+            _currentViewModel = _ccView;
             this.SettingsCommand = _ccView.SettingsCommand;
             _homeCommand = new RelayCommand(Home);
             _ccCommand = new RelayCommand(CalendarConverter);
@@ -50,9 +49,14 @@ namespace ITATools.ViewModel
         /// The CurrentViewModel Property provides the data for the MainWindow that allows the various User Controls to
         /// be populated, and displayed.
         /// </summary>
-        public ObservableCollection<ViewModelBase> CurrentViewModel
+        public ViewModelBase CurrentViewModel
         {
             get { return _currentViewModel; }
+            set 
+            { 
+                _currentViewModel = value;
+                OnPropertyChanged("CurrentViewModel");
+            }
         }
         /// <summary>
         /// Command Property for the Home Button
@@ -80,24 +84,24 @@ namespace ITATools.ViewModel
 
         private void Home(object obj)
         {
-            _currentViewModel.Clear();
+          
         }
         
         private void CalendarConverter(object obj)
         {
-            _currentViewModel[0] = _ccView;
+            CurrentViewModel = _ccView;
             this.SettingsCommand = (_ccView as Calendar_Converter.ViewModel.MainWindowViewModel).SettingsCommand;
         }
 
         private void CodeGenerator(object obj)
         {
-            _currentViewModel[0] = _cgView;
+            CurrentViewModel = _cgView;
             this.SettingsCommand = _cgView.SettingsCommand;
         }
 
         private void HTMLSanitizer(object obj)
         {
-            _currentViewModel[0] = _hsView;
+            CurrentViewModel = _hsView;
             this.SettingsCommand = new RelayCommand((_hsView as JunkCodeRemover.JunkCodeRemoverViewModel).DisplaySettings);
         }
         /// <summary>
@@ -106,7 +110,7 @@ namespace ITATools.ViewModel
         /// </summary>
         protected override void OnDispose()
         {
-            this.CurrentViewModel.Clear();
+
         }
         #endregion
     }
