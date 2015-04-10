@@ -33,7 +33,7 @@ namespace ITATools.ViewModel
             _cgView = new Calendar_Converter.ViewModel.MainWindowViewModel();
             _currentViewModel = new ObservableCollection<ViewModelBase>();
             _currentViewModel.Add(_ccView);
-            this._settingsCommand = _ccView.SettingsCommand;
+            this.SettingsCommand = _ccView.SettingsCommand;
             _homeCommand = new RelayCommand(Home);
             _ccCommand = new RelayCommand(CalendarConverter);
             _cgCommand = new RelayCommand(CodeGenerator);
@@ -86,19 +86,19 @@ namespace ITATools.ViewModel
         private void CalendarConverter(object obj)
         {
             _currentViewModel[0] = _ccView;
-            this._settingsCommand = _ccView.SettingsCommand;
+            this.SettingsCommand = (_ccView as Calendar_Converter.ViewModel.MainWindowViewModel).SettingsCommand;
         }
 
         private void CodeGenerator(object obj)
         {
             _currentViewModel[0] = _cgView;
-            this._settingsCommand = _cgView.SettingsCommand;
+            this.SettingsCommand = _cgView.SettingsCommand;
         }
 
         private void HTMLSanitizer(object obj)
         {
             _currentViewModel[0] = _hsView;
-            this._settingsCommand = _hsView.SettingsCommand;
+            this.SettingsCommand = new RelayCommand((_hsView as JunkCodeRemover.JunkCodeRemoverViewModel).DisplaySettings);
         }
         /// <summary>
         /// OnDispose Overrides the default OnDispose, and causes the collections
