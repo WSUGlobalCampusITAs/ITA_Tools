@@ -34,7 +34,7 @@
             <StackPanel>
                 <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Calendar Converter" Command="{Binding CalendarConverterCommand}"/>
                 <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Junk Code Removal" Command="{Binding HTMLSanitizeCommand}"/>
-                <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Code Creator" Command="{Binding CodeGeneratorCommand}"/>
+                <Button BorderBrush="{x:Null}" IsEnabled="False" Visibility="Hidden" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Code Creator" Command="{Binding CodeGeneratorCommand}"/>
             </StackPanel>
         </Border>
         <Border BorderBrush="Gray" BorderThickness=".5" Margin="2" Grid.Column="1" Grid.Row="1">
