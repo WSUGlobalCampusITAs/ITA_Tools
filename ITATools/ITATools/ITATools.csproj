@@ -41,8 +41,9 @@
     <Reference Include="JunkCodeRemover">
       <HintPath>..\..\..\JunkCodeRemover\JunkCodeRemover\JunkCodeRemover\bin\Debug\JunkCodeRemover.dll</HintPath>
     </Reference>
-    <Reference Include="MVVMObjectLibrary">
-      <HintPath>..\..\..\wsu-gc-calendar\Calendar Converter\Calendar Converter\bin\Debug\MVVMObjectLibrary.dll</HintPath>
+    <Reference Include="MVVMObjectLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MVVMObjectLibrary\MVVMObjectLibrary\MVVMObjectLibrary\bin\Debug\MVVMObjectLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
