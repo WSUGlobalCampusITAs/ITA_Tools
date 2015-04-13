@@ -18,6 +18,7 @@ namespace ITATools.ViewModel
             private ViewModelBase _ccView;
             private ViewModelBase _hsView;
             private ViewModelBase _cgView;
+            private ViewModelBase _home;
             private ICommand _homeCommand;
             private ICommand _ccCommand;
             private ICommand _cgCommand;
@@ -31,8 +32,9 @@ namespace ITATools.ViewModel
             _ccView = new Calendar_Converter.ViewModel.MainWindowViewModel();
             _hsView = new JunkCodeRemover.JunkCodeRemoverViewModel();
             _cgView = new Calendar_Converter.ViewModel.MainWindowViewModel();
-            _currentViewModel = _ccView;
-            this.SettingsCommand = _ccView.SettingsCommand;
+            _home = new HomeViewModel();
+            _currentViewModel = _home;
+            this.SettingsCommand = null;
             _homeCommand = new RelayCommand(Home);
             _ccCommand = new RelayCommand(CalendarConverter);
             _cgCommand = new RelayCommand(CodeGenerator);
@@ -84,7 +86,8 @@ namespace ITATools.ViewModel
 
         private void Home(object obj)
         {
-          
+            CurrentViewModel = _home;
+            this.SettingsCommand = null;
         }
         
         private void CalendarConverter(object obj)

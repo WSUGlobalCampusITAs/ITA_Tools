@@ -5,6 +5,8 @@
         xmlns:CCvm="clr-namespace:Calendar_Converter.ViewModel;assembly=Calendar_Converter"
         xmlns:CCvw="clr-namespace:Calendar_Converter.View;assembly=Calendar_Converter"
         xmlns:jcvm="clr-namespace:JunkCodeRemover;assembly=JunkCodeRemover"
+        xmlns:vm="clr-namespace:ITATools.ViewModel"
+        xmlns:vw="clr-namespace:ITATools.View"
         Title="ITA Tools" Height="800" Width="1000">
     <Window.Resources>
         <DataTemplate DataType="{x:Type CCvm:MainWindowViewModel}">
@@ -12,6 +14,9 @@
         </DataTemplate>
         <DataTemplate DataType="{x:Type jcvm:JunkCodeRemoverViewModel}">
             <jcvm:JunkCodeRemoverView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+            <vw:HomeView/>
         </DataTemplate>
     </Window.Resources>
     <Window.Background>
@@ -32,6 +37,7 @@
         <TextBlock Text="ITA Tools" HorizontalAlignment="Center" Foreground="White" VerticalAlignment="Center" FontSize="32" FontFamily="Times New Roman" Grid.Column="1"  Padding="3" />
         <Border BorderBrush="Gray" BorderThickness=".5" Grid.Row="1" Margin="2">
             <StackPanel>
+                <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Home" Command="{Binding HomeCommand}"/>
                 <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Calendar Converter" Command="{Binding CalendarConverterCommand}"/>
                 <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Junk Code Removal" Command="{Binding HTMLSanitizeCommand}"/>
                 <Button BorderBrush="{x:Null}" IsEnabled="False" Visibility="Hidden" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Code Creator" Command="{Binding CodeGeneratorCommand}"/>
