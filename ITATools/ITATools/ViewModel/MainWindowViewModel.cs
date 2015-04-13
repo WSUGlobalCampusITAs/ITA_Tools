@@ -39,6 +39,7 @@ namespace ITATools.ViewModel
             _ccCommand = new RelayCommand(CalendarConverter);
             _cgCommand = new RelayCommand(CodeGenerator);
             _hsCommand = new RelayCommand(HTMLSanitizer);
+            this.SettingsCommand = new RelayCommand(SettingsDisplay);
         }
         #endregion
 
@@ -87,25 +88,34 @@ namespace ITATools.ViewModel
         private void Home(object obj)
         {
             CurrentViewModel = _home;
-            this.SettingsCommand = null;
         }
         
         private void CalendarConverter(object obj)
         {
             CurrentViewModel = _ccView;
-            this.SettingsCommand = (_ccView as Calendar_Converter.ViewModel.MainWindowViewModel).SettingsCommand;
+           
         }
 
         private void CodeGenerator(object obj)
         {
             CurrentViewModel = _cgView;
-            this.SettingsCommand = _cgView.SettingsCommand;
         }
 
         private void HTMLSanitizer(object obj)
         {
             CurrentViewModel = _hsView;
-            this.SettingsCommand = new RelayCommand((_hsView as JunkCodeRemover.JunkCodeRemoverViewModel).DisplaySettings);
+        }
+
+        private void SettingsDisplay(object obj)
+        {
+            try
+            {
+                CurrentViewModel.SettingsCommand.Execute(this);
+            }
+            catch (NullReferenceException)
+            {
+
+            }
         }
         /// <summary>
         /// OnDispose Overrides the default OnDispose, and causes the collections

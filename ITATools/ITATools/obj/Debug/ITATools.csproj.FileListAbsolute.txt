@@ -43,3 +43,7 @@ C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\CsQuery
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\obj\Debug\View\HomeView.baml
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\obj\Debug\View\HomeView.g.cs
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\ITATools.exe.manifest
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\ITATools.application
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\obj\Debug\ITATools.exe.manifest
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\obj\Debug\ITATools.application
