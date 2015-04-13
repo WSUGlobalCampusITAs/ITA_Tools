@@ -5,7 +5,7 @@
         xmlns:CCvm="clr-namespace:Calendar_Converter.ViewModel;assembly=Calendar_Converter"
         xmlns:CCvw="clr-namespace:Calendar_Converter.View;assembly=Calendar_Converter"
         xmlns:jcvm="clr-namespace:JunkCodeRemover;assembly=JunkCodeRemover"
-        Title="ITA Tools" Height="600" Width="800">
+        Title="ITA Tools" Height="800" Width="1000">
     <Window.Resources>
         <DataTemplate DataType="{x:Type CCvm:MainWindowViewModel}">
             <CCvw:MainWindowView/>
@@ -29,7 +29,7 @@
             <ColumnDefinition Width="216"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="ITA Tools" HorizontalAlignment="Center" Foreground="White" VerticalAlignment="Center" FontSize="18" FontFamily="Times New Roman" Grid.Column="1" Margin="83,4,221,4" Padding="3" />
+        <TextBlock Text="ITA Tools" HorizontalAlignment="Center" Foreground="White" VerticalAlignment="Center" FontSize="32" FontFamily="Times New Roman" Grid.Column="1"  Padding="3" />
         <Border BorderBrush="Gray" BorderThickness=".5" Grid.Row="1" Margin="2">
             <StackPanel>
                 <Button BorderBrush="{x:Null}" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Calendar Converter" Command="{Binding CalendarConverterCommand}"/>
@@ -37,7 +37,7 @@
                 <Button BorderBrush="{x:Null}" IsEnabled="False" Visibility="Hidden" Foreground="White" Background="{x:Null}" Margin="5" Height="20" Content="Code Creator" Command="{Binding CodeGeneratorCommand}"/>
             </StackPanel>
         </Border>
-        <ScrollViewer  Margin="2" Grid.Column="1" Grid.Row="1">
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="2" Grid.Column="1" Grid.Row="1">
             <ContentControl Content="{Binding CurrentViewModel}" />
         </ScrollViewer>
         <Button Grid.Column="1" HorizontalAlignment="Right" Width="20" Height="20" VerticalAlignment="Center" Margin="5" Command="{Binding SettingsCommand}">
