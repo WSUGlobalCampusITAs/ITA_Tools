@@ -23,6 +23,7 @@ namespace ITATools.ViewModel
             private ICommand _ccCommand;
             private ICommand _cgCommand;
             private ICommand _hsCommand;
+            private bool _scrollingenabled;
 
         #endregion
 
@@ -81,6 +82,19 @@ namespace ITATools.ViewModel
         /// </summary>
         public ICommand HomeCommand { get { return _homeCommand; } }
 
+        public bool ScrollingEnabled 
+        { 
+            get 
+            { 
+                return _scrollingenabled; 
+            }
+            set
+            {
+                _scrollingenabled = value;
+                OnPropertyChanged("ScrollingEnabled");
+            }
+        }
+
         #endregion
 
         #region Member Methods
@@ -88,11 +102,14 @@ namespace ITATools.ViewModel
         private void Home(object obj)
         {
             CurrentViewModel = _home;
+            ScrollingEnabled = true;
+
         }
         
         private void CalendarConverter(object obj)
         {
             CurrentViewModel = _ccView;
+            ScrollingEnabled = true;
            
         }
 
@@ -104,6 +121,7 @@ namespace ITATools.ViewModel
         private void HTMLSanitizer(object obj)
         {
             CurrentViewModel = _hsView;
+            ScrollingEnabled = false;
         }
 
         private void SettingsDisplay(object obj)
