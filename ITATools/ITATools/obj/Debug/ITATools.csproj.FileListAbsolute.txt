@@ -48,3 +48,4 @@ C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\obj\Debug\ITATool
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\HtmlAgilityPack.dll
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\HtmlAgilityPack.xml
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\Highlight.dll
