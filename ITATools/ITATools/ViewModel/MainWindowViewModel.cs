@@ -7,6 +7,7 @@ using MVVMObjectLibrary;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Calendar_Converter.ViewModel;
+using CodeGenerator;
 
 namespace ITATools.ViewModel
 {
@@ -32,7 +33,7 @@ namespace ITATools.ViewModel
         {
             _ccView = new Calendar_Converter.ViewModel.MainWindowViewModel();
             _hsView = new JunkCodeRemover.JunkCodeRemoverViewModel();
-            _cgView = new Calendar_Converter.ViewModel.MainWindowViewModel();
+            _cgView = new CodeGeneratorViewModel();
             _home = new HomeViewModel();
             _currentViewModel = _home;
             this.SettingsCommand = null;

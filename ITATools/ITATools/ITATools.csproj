@@ -26,7 +26,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>\\eusfiles.ad.wsu.edu\Shared\COURSE DEVELOPMENT\ITA Individual Folders\Resources\ITATools\</InstallUrl>
-    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationRevision>10</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -70,6 +70,9 @@
     <Reference Include="Calendar_Converter">
       <HintPath>..\..\..\wsu-gc-calendar\Calendar Converter\Calendar Converter\bin\Debug\Calendar_Converter.dll</HintPath>
     </Reference>
+    <Reference Include="CodeGenerator">
+      <HintPath>..\..\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.dll</HintPath>
+    </Reference>
     <Reference Include="JunkCodeRemover">
       <HintPath>..\..\..\JunkCodeRemover\JunkCodeRemover\JunkCodeRemover\bin\Debug\JunkCodeRemover.dll</HintPath>
     </Reference>
@@ -77,6 +80,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\MVVMObjectLibrary\MVVMObjectLibrary\MVVMObjectLibrary\bin\Debug\MVVMObjectLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationFramework.Aero" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />

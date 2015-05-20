@@ -8,22 +8,157 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CodeGenerator.Properties
-{
+namespace CodeGenerator.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "12.0.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
         
-        public static Settings Default
-        {
-            get
-            {
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("<p style=\"text-align: center;\"><span style=\"font-size: x-large;\">Course Prefix &a" +
+            "mp; Number</span><br /> <span style=\"font-size: large;\">Title of Course<br /> </" +
+            "span></p>\r\n<p><strong>Course Instructor:</strong></p>\r\n<p class=\"includeGCConten" +
+            "t\" data-url=\"https://learn-content.wsu.edu/DynamicContent.asmx/InstructorInforma" +
+            "tion?courseId=@X@course.id@X@\">This content will only display when Edit Mode is " +
+            "turned OFF. Do not delete this placeholder text.</p>\r\n<p><strong>Text and Resour" +
+            "ces:</strong></p>\r\n<p class=\"includeGCContent\" data-url=\"https://learn-content.w" +
+            "su.edu/DynamicContent.asmx/MoreInformation?courseId=@X@course.id@X@\">This conten" +
+            "t will only display when Edit Mode is turned OFF. Do not delete this placeholder" +
+            " text.</p>\r\n<h1>Course Overview</h1>\r\n<p>This section will contain the course ov" +
+            "erview and will be public to web visitors for preview of the syllabus.</p>\r\n<h1>" +
+            "Course Goals</h1>\r\n<p>This section will contain the course goals and will be pub" +
+            "lic to web visitors for preview of the syllabus.</p>\r\n<h1>Course Work</h1>\r\n<p>T" +
+            "his section will contain the course work and will be public to web visitors for " +
+            "preview of the syllabus.</p>\r\n<p><strong><em>Proctored Exam Information</em></st" +
+            "rong> <span style=\"font-size: x-small;\"><em>[Delete this table AND the include f" +
+            "ile below it if this course does NOT have proctored exams. Otherwise, for course" +
+            " with proctored exams, fill in the table to provide all required details. Specia" +
+            "l instructions should include ALL information about use of books, notes, calcula" +
+            "tors, scratch paper, and so on.]</em></span></p>\r\n<table style=\"border: 1px soli" +
+            "d #000000; margin-left: 60px; border-collapse: collapse; width: 60%;\" cellpaddin" +
+            "g=\"4\" cellspacing=\"0\">\r\n<tbody>\r\n<tr>\r\n<td style=\"border: 1px solid #000000; tex" +
+            "t-align: center; background-color: #ece9d8;\"><strong>Exam #</strong></td>\r\n<td s" +
+            "tyle=\"border: 1px solid #000000; text-align: center; background-color: #ece9d8;\"" +
+            "><strong>Format</strong></td>\r\n<td style=\"border: 1px solid #000000; text-align:" +
+            " center; background-color: #ece9d8;\"><strong>Time Limit</strong></td>\r\n<td style" +
+            "=\"border: 1px solid #000000; text-align: center; background-color: #ece9d8;\"><st" +
+            "rong>Special Instructions</strong></td>\r\n</tr>\r\n<tr>\r\n<td style=\"border: 1px sol" +
+            "id #000000;\"> </td>\r\n<td style=\"border: 1px solid #000000;\"> </td>\r\n<td style=\"b" +
+            "order: 1px solid #000000;\"> </td>\r\n<td style=\"border: 1px solid #000000;\"> </td>" +
+            "\r\n</tr>\r\n<tr>\r\n<td style=\"border: 1px solid #000000;\"> </td>\r\n<td style=\"border:" +
+            " 1px solid #000000;\"> </td>\r\n<td style=\"border: 1px solid #000000;\"> </td>\r\n<td " +
+            "style=\"border: 1px solid #000000;\"> </td>\r\n</tr>\r\n<tr>\r\n<td style=\"border: 1px s" +
+            "olid #000000;\"> </td>\r\n<td style=\"border: 1px solid #000000;\"> </td>\r\n<td style=" +
+            "\"border: 1px solid #000000;\"> </td>\r\n<td style=\"border: 1px solid #000000;\"> </t" +
+            "d>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p></p>\r\n<p class=\"includeGCContent\" data-url=\"ht" +
+            "tps://learn-content.wsu.edu/includes/credit/HowToProctoredExams.html?courseId=@X" +
+            "@course.id@X@\">This content will only display when Edit Mode is turned OFF. Do n" +
+            "ot delete this placeholder text.</p>\r\n<p class=\"includeGCContent\" data-url=\"http" +
+            "s://learn-content.wsu.edu/includes/credit/HowToProctorWSUExams.html?courseId=@X@" +
+            "course.id@X@\">This content will only display when Edit Mode is turned OFF. Do no" +
+            "t delete this placeholder text.</p>\r\n<h1>Instructor Interaction</h1>\r\n<p>The ins" +
+            "tructor has the latest information about interaction and feedback.</p>\r\n<h1>Late" +
+            " Work Policy</h1>\r\n<p>The instructor has the latest information about a late wor" +
+            "k policy.</p>\r\n<h1>Grading</h1>\r\n<p>This section will contain grading informatio" +
+            "n and tables and will NOT be public to web visitors for preview of the syllabus." +
+            "</p>\r\n<table style=\"border: 1px solid #000000; margin-left: 60px; border-collaps" +
+            "e: collapse; width: 50%;\" cellpadding=\"4\" cellspacing=\"0\">\r\n<tbody>\r\n<tr>\r\n<td s" +
+            "tyle=\"border: 1px solid #000000;\"> </td>\r\n<td style=\"border: 1px solid #000000;\"" +
+            "> </td>\r\n<td style=\"border: 1px solid #000000;\"> </td>\r\n</tr>\r\n<tr>\r\n<td style=\"" +
+            "border: 1px solid #000000;\"> </td>\r\n<td style=\"border: 1px solid #000000;\"> </td" +
+            ">\r\n<td style=\"border: 1px solid #000000;\"> </td>\r\n</tr>\r\n<tr>\r\n<td style=\"border" +
+            ": 1px solid #000000;\"> </td>\r\n<td style=\"border: 1px solid #000000;\"> </td>\r\n<td" +
+            " style=\"border: 1px solid #000000;\"> </td>\r\n</tr>\r\n<tr>\r\n<td style=\"border: 1px " +
+            "solid #000000;\"> </td>\r\n<td style=\"border: 1px solid #000000;\"> </td>\r\n<td style" +
+            "=\"border: 1px solid #000000;\"> </td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p></p>\r\n<table" +
+            " style=\"border: 1px solid #000000; margin-left: 60px; border-collapse: collapse;" +
+            " width: 50%;\" cellpadding=\"4\" cellspacing=\"0\">\r\n<tbody>\r\n<tr>\r\n<td style=\"border" +
+            ": 1px solid #000000; background-color: #ece9d8; text-align: left;\"><strong>Grade" +
+            "</strong></td>\r\n<td style=\"border: 1px solid #000000; background-color: #ece9d8;" +
+            " text-align: left;\"><strong>Points</strong></td>\r\n<td style=\"border: 1px solid #" +
+            "000000; background-color: #ece9d8; text-align: left;\"><strong>Grade</strong></td" +
+            ">\r\n<td style=\"border: 1px solid #000000; background-color: #ece9d8; text-align: " +
+            "left;\"><strong>Points</strong></td>\r\n</tr>\r\n<tr>\r\n<td style=\"border: 1px solid #" +
+            "000000; text-align: left;\">A</td>\r\n<td style=\"border: 1px solid #000000; text-al" +
+            "ign: left;\"> </td>\r\n<td style=\"border: 1px solid #000000; text-align: left;\">C</" +
+            "td>\r\n<td style=\"border: 1px solid #000000; text-align: left;\"> </td>\r\n</tr>\r\n<tr" +
+            ">\r\n<td style=\"border: 1px solid #000000; text-align: left;\">A-</td>\r\n<td style=\"" +
+            "border: 1px solid #000000; text-align: left;\"> </td>\r\n<td style=\"border: 1px sol" +
+            "id #000000; text-align: left;\">C-</td>\r\n<td style=\"border: 1px solid #000000; te" +
+            "xt-align: left;\"> </td>\r\n</tr>\r\n<tr>\r\n<td style=\"border: 1px solid #000000; text" +
+            "-align: left;\">B+</td>\r\n<td style=\"border: 1px solid #000000; text-align: left;\"" +
+            "> </td>\r\n<td style=\"border: 1px solid #000000; text-align: left;\">D+</td>\r\n<td s" +
+            "tyle=\"border: 1px solid #000000; text-align: left;\"> </td>\r\n</tr>\r\n<tr>\r\n<td sty" +
+            "le=\"border: 1px solid #000000; text-align: left;\">B</td>\r\n<td style=\"border: 1px" +
+            " solid #000000; text-align: left;\"> </td>\r\n<td style=\"border: 1px solid #000000;" +
+            " text-align: left;\">D</td>\r\n<td style=\"border: 1px solid #000000; text-align: le" +
+            "ft;\"> </td>\r\n</tr>\r\n<tr>\r\n<td style=\"border: 1px solid #000000; text-align: left" +
+            ";\">B-</td>\r\n<td style=\"border: 1px solid #000000; text-align: left;\"> </td>\r\n<td" +
+            " style=\"border: 1px solid #000000; text-align: left;\">F</td>\r\n<td style=\"border:" +
+            " 1px solid #000000; text-align: left;\"> </td>\r\n</tr>\r\n<tr>\r\n<td style=\"border: 1" +
+            "px solid #000000; text-align: left;\">C+</td>\r\n<td style=\"border: 1px solid #0000" +
+            "00; text-align: left;\"> </td>\r\n<td style=\"border: 1px solid #000000; text-align:" +
+            " left;\"> </td>\r\n<td style=\"border: 1px solid #000000; text-align: left;\"> </td>\r" +
+            "\n</tr>\r\n</tbody>\r\n</table>\r\n<p class=\"includeGCContent\" data-url=\"https://learn-" +
+            "content.wsu.edu/includes/credit/syllabus/incompletePolicy.html?courseId=@X@cours" +
+            "e.id@X@\">This content will only display when Edit Mode is turned OFF. Do not del" +
+            "ete this placeholder text.</p>\r\n<p class=\"includeGCContent\" data-url=\"https://le" +
+            "arn-content.wsu.edu/includes/credit/syllabus/courseSchedule.html?courseId=@X@cou" +
+            "rse.id@X@\">This content will only display when Edit Mode is turned OFF. Do not d" +
+            "elete this placeholder text.</p>\r\n<p class=\"includeGCContent\" data-url=\"https://" +
+            "learn-content.wsu.edu/includes/credit/syllabus/academicRegulations.html?courseId" +
+            "=@X@course.id@X@\">This content will only display when Edit Mode is turned OFF. D" +
+            "o not delete this placeholder text.</p>\r\n<p class=\"includeGCContent\" data-url=\"h" +
+            "ttps://learn-content.wsu.edu/includes/credit/syllabus/StudentPrivacy.html?course" +
+            "Id=@X@course.id@X@\">This content will only display when Edit Mode is turned OFF." +
+            " Do not delete this placeholder text.</p>\r\n<p class=\"includeGCContent\" data-url=" +
+            "\"https://learn-content.wsu.edu/includes/credit/syllabus/academicIntegrity.html?c" +
+            "ourseId=@X@course.id@X@\">This content will only display when Edit Mode is turned" +
+            " OFF. Do not delete this placeholder text.</p>\r\n<p class=\"includeGCContent\" data" +
+            "-url=\"https://learn-content.wsu.edu/includes/credit/syllabus/onlineCollaboration" +
+            ".html?courseId=@X@course.id@X@\">This content will only display when Edit Mode is" +
+            " turned OFF. Do not delete this placeholder text.</p>\r\n<p class=\"includeGCConten" +
+            "t\" data-url=\"https://learn-content.wsu.edu/includes/credit/syllabus/criticalThin" +
+            "king.html?courseId=@X@course.id@X@\">This content will only display when Edit Mod" +
+            "e is turned OFF. Do not delete this placeholder text.</p>\r\n<p class=\"includeGCCo" +
+            "ntent\" data-url=\"https://learn-content.wsu.edu/includes/credit/syllabus/Reasonab" +
+            "leAccommodations.html?courseId=@X@course.id@X@\">This content will only display w" +
+            "hen Edit Mode is turned OFF. Do not delete this placeholder text.</p>\r\n<p class=" +
+            "\"includeGCContent\" data-url=\"https://learn-content.wsu.edu/includes/credit/sylla" +
+            "bus/TechnicalSupportSyllabus.html?courseId=@X@course.id@X@\">This content will on" +
+            "ly display when Edit Mode is turned OFF. Do not delete this placeholder text.</p" +
+            ">\r\n<p class=\"includeGCContent\" data-url=\"https://learn-content.wsu.edu/includes/" +
+            "credit/syllabus/WSUOnlineStudentSupport.html?courseId=@X@course.id@X@\">This cont" +
+            "ent will only display when Edit Mode is turned OFF. Do not delete this placehold" +
+            "er text.</p>\r\n<p class=\"includeGCContent\" data-url=\"https://learn-content.wsu.ed" +
+            "u/includes/credit/syllabus/librarySupport.html?courseId=@X@course.id@X@\">This co" +
+            "ntent will only display when Edit Mode is turned OFF. Do not delete this placeho" +
+            "lder text.</p>\r\n<p class=\"includeGCContent\" data-url=\"https://learn-content.wsu." +
+            "edu/includes/credit/syllabus/eTutoring.html?courseId=@X@course.id@X@\">This conte" +
+            "nt will only display when Edit Mode is turned OFF. Do not delete this placeholde" +
+            "r text.</p>\r\n<p class=\"includeGCContent\" data-url=\"https://learn-content.wsu.edu" +
+            "/includes/credit/syllabus/academicCalendar.html?courseId=@X@course.id@X@\">This c" +
+            "ontent will only display when Edit Mode is turned OFF. Do not delete this placeh" +
+            "older text.</p>\r\n<p class=\"includeGCContent\" data-url=\"https://learn-content.wsu" +
+            ".edu/includes/credit/syllabus/CampusSafety.html?courseId=@X@course.id@X@\">This c" +
+            "ontent will only display when Edit Mode is turned OFF. Do not delete this placeh" +
+            "older text.</p>")]
+        public string SyllabusCode {
+            get {
+                return ((string)(this["SyllabusCode"]));
+            }
+            set {
+                this["SyllabusCode"] = value;
             }
         }
     }

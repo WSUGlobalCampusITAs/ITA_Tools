@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeTemplates>
+  <Template Title="Syllabus">
+    <Code>
+      <p style="text-align: center;">
+        <span style="font-size: x-large;">Course Prefix &amp; Number</span>
+        <br />
+        <span style="font-size: large;">
+          Title of Course<br />
+        </span>
+      </p>
+      <p>
+        <strong>Course Instructor:</strong>
+      </p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/DynamicContent.asmx/InstructorInformation?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p>
+        <strong>Text and Resources:</strong>
+      </p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/DynamicContent.asmx/MoreInformation?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <h1>Course Overview</h1>
+      <p>This section will contain the course overview and will be public to web visitors for preview of the syllabus.</p>
+      <h1>Course Goals</h1>
+      <p>This section will contain the course goals and will be public to web visitors for preview of the syllabus.</p>
+      <h1>Course Work</h1>
+      <p>This section will contain the course work and will be public to web visitors for preview of the syllabus.</p>
+      <p>
+        <strong>
+          <em>Proctored Exam Information</em>
+        </strong>
+        <span style="font-size: x-small;">
+          <em>[Delete this table AND the include file below it if this course does NOT have proctored exams. Otherwise, for course with proctored exams, fill in the table to provide all required details. Special instructions should include ALL information about use of books, notes, calculators, scratch paper, and so on.]</em>
+        </span>
+      </p>
+      <table style="border: 1px solid #000000; margin-left: 60px; border-collapse: collapse; width: 60%;" cellpadding="4" cellspacing="0">
+        <tbody>
+          <tr>
+            <td style="border: 1px solid #000000; text-align: center; background-color: #ece9d8;">
+              <strong>Exam #</strong>
+            </td>
+            <td style="border: 1px solid #000000; text-align: center; background-color: #ece9d8;">
+              <strong>Format</strong>
+            </td>
+            <td style="border: 1px solid #000000; text-align: center; background-color: #ece9d8;">
+              <strong>Time Limit</strong>
+            </td>
+            <td style="border: 1px solid #000000; text-align: center; background-color: #ece9d8;">
+              <strong>Special Instructions</strong>
+            </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+        </tbody>
+      </table>
+      <p></p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/HowToProctoredExams.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/HowToProctorWSUExams.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <h1>Instructor Interaction</h1>
+      <p>The instructor has the latest information about interaction and feedback.</p>
+      <h1>Late Work Policy</h1>
+      <p>The instructor has the latest information about a late work policy.</p>
+      <h1>Grading</h1>
+      <p>This section will contain grading information and tables and will NOT be public to web visitors for preview of the syllabus.</p>
+      <table style="border: 1px solid #000000; margin-left: 60px; border-collapse: collapse; width: 50%;" cellpadding="4" cellspacing="0">
+        <tbody>
+          <tr>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+        </tbody>
+      </table>
+      <p></p>
+      <table style="border: 1px solid #000000; margin-left: 60px; border-collapse: collapse; width: 50%;" cellpadding="4" cellspacing="0">
+        <tbody>
+          <tr>
+            <td style="border: 1px solid #000000; background-color: #ece9d8; text-align: left;">
+              <strong>Grade</strong>
+            </td>
+            <td style="border: 1px solid #000000; background-color: #ece9d8; text-align: left;">
+              <strong>Points</strong>
+            </td>
+            <td style="border: 1px solid #000000; background-color: #ece9d8; text-align: left;">
+              <strong>Grade</strong>
+            </td>
+            <td style="border: 1px solid #000000; background-color: #ece9d8; text-align: left;">
+              <strong>Points</strong>
+            </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000; text-align: left;">A</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+            <td style="border: 1px solid #000000; text-align: left;">C</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000; text-align: left;">A-</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+            <td style="border: 1px solid #000000; text-align: left;">C-</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000; text-align: left;">B+</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+            <td style="border: 1px solid #000000; text-align: left;">D+</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000; text-align: left;">B</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+            <td style="border: 1px solid #000000; text-align: left;">D</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000; text-align: left;">B-</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+            <td style="border: 1px solid #000000; text-align: left;">F</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000; text-align: left;">C+</td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+            <td style="border: 1px solid #000000; text-align: left;"> </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/incompletePolicy.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/courseSchedule.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/academicRegulations.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/StudentPrivacy.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/academicIntegrity.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/onlineCollaboration.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/criticalThinking.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/ReasonableAccommodations.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/TechnicalSupportSyllabus.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/WSUOnlineStudentSupport.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/librarySupport.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/eTutoring.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/academicCalendar.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/CampusSafety.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+    </Code>
+  </Template>
+  <Template Title="Home">
+    <Code>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/HomePageStartHere.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p>
+        <img style="display: block; margin-left: auto; margin-right: auto;" src="https://learn.wsu.edu/bbcswebdav/pid-663575-dt-content-rid-3113724_1/xid-3113724_1" alt="Home Page Image" height="185" width="335" />
+      </p>
+      <div style="text-align: center;">
+        <strong>
+          Welcome to<span style="font-size: small;"></span>
+        </strong>
+      </div>
+      <h3>
+        <span style="font-size: small;">Overview</span>
+      </h3>
+      <p></p>
+      <hr />
+      <h3>Learning Objectives/Goals</h3>
+      <p></p>
+      <hr />
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/tipsForSuccess.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <hr />
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/YourNextStep.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+    </Code>
+  </Template>
+  <Template Title="Course Schedule">
+    <Code>
+      <table style="border: 1px solid #000000; border-collapse: collapse; width: 100%;" border="1" cellpadding="4" cellspacing="0">
+        <tbody>
+          <tr>
+            <td style="border: 1px solid #000000; background-color: #ece9d8; text-align: center;">
+              <strong>Dates</strong>
+            </td>
+            <td style="border: 1px solid #000000; background-color: #ece9d8; text-align: center;">
+              <strong>
+                Unit or Lesson<br />
+              </strong>
+            </td>
+            <td style="border: 1px solid #000000; background-color: #ece9d8; text-align: center;">
+              <strong>Assignment</strong>
+            </td>
+            <td style="border: 1px solid #000000; background-color: #ece9d8; text-align: center;">
+              <strong>Due Date</strong>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">1</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">2</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">3</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">4</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">5</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">6</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">7</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">8</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">9</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">10</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">11</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">12</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">13</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">14</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">15</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+          <tr>
+            <td align="center" style="border: 1px solid #000000;"> </td>
+            <td align="center" style="border: 1px solid #000000;">16</td>
+            <td style="border: 1px solid #000000;"> </td>
+            <td style="border: 1px solid #000000;"> </td>
+          </tr>
+        </tbody>
+      </table>
+    </Code>
+  </Template>
+  <Template Title="Tech Support">
+    <Code>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/tech_support.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+    </Code>
+  </Template>
+  <Template Title="Academic Calendar">
+    <Code>
+      <p class="includeGCContent" data-url="https://learn-content.wsu.edu/includes/credit/syllabus/academicCalendar.html?courseId=@X@course.id@X@">This content will only display when Edit Mode is turned OFF. Do not delete this placeholder text.</p>
+      <p></p>
+    </Code>
+  </Template>
+</CodeTemplates> 
