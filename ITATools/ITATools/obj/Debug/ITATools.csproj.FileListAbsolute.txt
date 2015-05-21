@@ -64,7 +64,7 @@ C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\ro\Xcee
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
-C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\Highlight.dll
-C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\Highlight.pdb
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\CodeGenerator.dll
 C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\CodeGenerator.pdb
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\Highlight.dll
+C:\Users\david.lystad\Source\Repos\ITA_Tools\ITATools\ITATools\bin\Debug\Highlight.pdb
